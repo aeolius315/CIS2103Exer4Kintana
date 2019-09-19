@@ -9,22 +9,17 @@ import java.util.*;
 
 
 public class Rectangle {
-    float length;
-    float width;
+    private float length;
+    private float width;
     Scanner len = new Scanner (System.in);
     Scanner wid = new Scanner (System.in);
             
     Rectangle() {
-        length = 1.0F;
-        width = 1.0F;
-    }
-    
-    public void Rectangle() {
         
     }
-    
-    public void Rectangle(float length, float width) {
-        
+    Rectangle(float l, float w) {
+        length = l;
+        width = w;
     }
     
     public float getLength() {
@@ -52,6 +47,6 @@ public class Rectangle {
     }
     
     public String toString() {
-        return "Rectangle[length=?, width=?]";
+        return String.format("Rectangle[length=%f, width=%f", length, width);
     }
 }

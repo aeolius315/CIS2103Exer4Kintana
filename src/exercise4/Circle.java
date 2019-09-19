@@ -9,19 +9,15 @@ import java.util.*;
 
 
 public class Circle {
-    double radius;
+    private double radius;
     Scanner rad = new Scanner (System.in);
     
     Circle() {
-        radius = 1.0;
+       
     }
     
-    public void Circle() {
-        
-    }
-    
-    public void Circle(double radius) {
-        
+    Circle(double r) {
+        radius = r;
     }
     
     public double getRadius() {
@@ -41,6 +37,6 @@ public class Circle {
     }
     
     public String toString() {
-        return "Circle[radius=?]";
+        return String.format("Circle[radius=%f", radius);
     }
 }
