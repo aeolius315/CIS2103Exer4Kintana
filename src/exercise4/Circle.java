@@ -37,6 +37,6 @@ public class Circle {
     }
     
     public String toString() {
-        return String.format("Circle[radius=%f", radius);
+        return String.format("Circle[radius=%f]", radius);
     }
 }
