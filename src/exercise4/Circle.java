@@ -9,7 +9,7 @@ import java.util.*;
 
 
 public class Circle {
-    private double radius;
+    private double radius = 1.0;
     Scanner rad = new Scanner (System.in);
     
     Circle() {

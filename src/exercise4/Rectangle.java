@@ -9,8 +9,8 @@ import java.util.*;
 
 
 public class Rectangle {
-    private float length;
-    private float width;
+    private float length = 1.0F;
+    private float width = 1.0F;
     Scanner len = new Scanner (System.in);
     Scanner wid = new Scanner (System.in);
             
